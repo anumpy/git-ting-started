@@ -34,3 +34,17 @@ command5 = 'git commit '
 the_message = 'Initial commit'
 to_commit = command5 + '-m ' + the_message
 
+command6 = 'git status'
+
+# command6 is meant to check whether our files are 'staged', 'untracked', or 'unstaged'.
+# Staged: files are ready to be committed.
+# Unstaged: files are not yet ready to be committed.
+# Untracked: files are new files that Git has not seen before.
+
+command7 = 'git push '
+
+# command7 is used to send your locally committed changes to your remote repository. 
+# Thus, you'll see all the changes you've made on GitHub. Example
+
+branch = 'origin main'
+to_push = command7 + '-u ' + branch 
